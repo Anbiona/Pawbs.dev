@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  color: #eee;
+  background: linear-gradient(135deg, #1e1e2f, #2e2e48);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2em 3em;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  max-width: 1200px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 2em;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: italic;
+}
+
+.icon {
+  margin: -10px 0.5em;
+  color: #ffffff;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  fill: white;
+  transform: scale(1.1);
+}
+
+.divider {
+  margin: 2em auto;
+  border: none;
+  height: 2px;
+  background: white;
+  width: 95%;
+  opacity: 0.2;
+}
+
+.post-divider {
+  margin: 0 0em;
+  border: none;
+  height: 2px;
+  background: white;
+  width: 95%;
+  opacity: 0.2;
+}
+
+.posts {
+  display: flex;
+  gap: 1.5em;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.posts-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  border-radius: 1em;
+  padding: 1.5em;
+  width: 300px;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.posts-box:hover {
+  transform: scale(1.03);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.posts-box h2 {
+  margin-top: 0;
+  font-size: 1.25em;
+}
+
+.posts-box p {
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.post-content {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ddd;
+  margin-top: 1rem;
+}
+
+.date {
+	line-height: 1;
+	margin-bottom: 0em;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.date-length {
+	line-height: 1;
+	margin-top: -2em;
+	font-size: 14px;
+	font-style: italic;
+}
+
